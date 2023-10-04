@@ -1,0 +1,56 @@
+/* Default styles for larger screens */
+.voting-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.player-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.player-info {
+  font-size: 18px;
+}
+
+.vote-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.vote-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for iPhone SE */
+@media (max-width: 320px) {
+  h1 {
+      font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  .player-info {
+      font-size: 16px; /* Adjust the font size as needed */
+  }
+
+  .vote-button {
+      padding: 4px 8px; /* Adjust padding as needed */
+      font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  /* Add additional styles for smaller screens if needed */
+}

@@ -1,0 +1,115 @@
+/* Default styles for larger screens */
+.myaccount-main-content {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 700px;
+}
+
+.myaccount-main-content h1 {
+  font-size: 24px;
+  font-family: SF-Bold;
+}
+
+.myaccount-welcome {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  height: 150px;
+}
+
+.myaccount-welcome p {
+  font-family: SF-Pro-Light;
+  width: 500px;
+}
+
+.myaccount-user-details {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100px;
+}
+
+.myaccount-user-details h2 {
+  font-family: SF-Bold;
+  font-size: 20px;
+}
+
+.myaccount-user-inner {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 70px;
+}
+
+.myaccount-user-inner p {
+  margin: 0;
+  font-family: SF-Pro-Light;
+}
+
+.myaccount-user-details input {
+  height: 40px;
+  width: 90px;
+  outline: none;
+  border-radius: none;
+  background: none;
+  border: none;
+  border: solid #000 0.1px;
+  font-family: SF-SemiBold;
+}
+
+.myaccount-social {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100px;
+}
+
+.myaccount-social h2 {
+  font-family: SF-Bold;
+  font-size: 20px;
+}
+
+.myaccount-social-inner {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: SF-Pro-Light;
+}
+
+.myaccount-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.myaccount-links {
+  text-decoration: underline;
+}
+
+/* Media query for iPhone SE */
+@media (max-width: 320px) {
+  .myaccount-main-content {
+      height: auto; /* Remove fixed height */
+  }
+
+  .myaccount-main-content h1 {
+      font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  .myaccount-welcome p {
+      width: auto; /* Remove fixed width */
+  }
+
+  .myaccount-user-details h2 {
+      font-size: 18px; /* Adjust the font size as needed */
+  }
+
+  .myaccount-user-inner p {
+      font-size: 16px; /* Adjust the font size as needed */
+  }
+
+  .myaccount-user-details input {
+      height: 30px; /* Adjust the height as needed */
+      width: 70px; /* Adjust the width as needed */
+      font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  .myaccount-social h2 {
+      font-size: 18px; /* Adjust the font size as needed */
+  }
+}

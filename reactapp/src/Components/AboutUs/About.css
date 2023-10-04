@@ -1,0 +1,38 @@
+/* AboutUs.css */
+
+/* Default styles for larger screens */
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Media query for iPhone SE */
+@media (max-width: 300px) {
+  .about-us-container {
+    max-width: 320px; /* Adjust the max-width as needed */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+
+  h1 {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  p {
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+}

@@ -1,0 +1,25 @@
+/* Default styles for larger screens */
+.event-ic {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Media query for iPhone SE */
+@media (max-width: 320px) {
+  .event-ic {
+    max-width: 280px; /* Adjust the max-width as needed */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+
+  h1 {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+}

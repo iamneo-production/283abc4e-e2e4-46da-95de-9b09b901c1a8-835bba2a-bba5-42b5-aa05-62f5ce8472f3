@@ -1,0 +1,57 @@
+/* Default styles for larger screens */
+.cla {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  padding-bottom: 350px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+}
+
+.country-card img {
+  max-width: 100px;
+  height: auto;
+}
+
+.country-card h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Media query for iPhone SE */
+@media (max-width: 320px) {
+  .cla {
+      padding-bottom: 100px; /* Adjust the padding as needed */
+  }
+
+  .country-card {
+      padding: 10px; /* Adjust the padding as needed */
+  }
+
+  .country-card img {
+      max-width: 80px; /* Adjust the image size as needed */
+  }
+
+  .country-card h2 {
+      font-size: 14px; /* Adjust the font size as needed */
+  }
+}
